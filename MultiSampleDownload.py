@@ -31,7 +31,7 @@ def ftp_Download(ENAEntry,DLParameters):
             else:
                 FFpath='{0}.fastq.gz'.format(ENAEntry)
 
-            outputlog = '{0}_{1}_wget_log.txt'.format(ENAEntry,i)
+            outputlog = './logs/{0}_{1}_wget_log.txt'.format(ENAEntry,i)
 
             dir1 = ENAEntry[:6]
             if len(ENAEntry)==9:
@@ -153,7 +153,7 @@ DownloadParameters = parser.parse_args()
 DownloadParameters.IndividualMaxBandwidth = DownloadParameters.TotalMaxBandwidth/DownloadParameters.Threads
 
 # Write all print statements to Log File
-log_file = open("{}_Download.log".format(DownloadParameters.ID),"w")
+log_file = open("./logs/{}_Download.log".format(DownloadParameters.ID),"w")
 sys.stdout = log_file
 
 
