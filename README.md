@@ -16,7 +16,7 @@ bash Install.sh
 
 conda activate emmawgs
 
-# Then in install emmawgs pipeline
+# Then in install jodys pipeline
 
 git clone https://github.com/pathogenseq/fastq2matrix.git
 cd fastq2matrix
@@ -28,10 +28,10 @@ python setup.py install
 
 ## Running
 
-Ensure the conda fastq2matrix environment is active
+Ensure the conda emmawgs environment is active
 
 ```
-conda activate fastq2matrix
+conda activate emmawgs
 ```
 
 Next navigate inside the WGS directory and create a text ile containing the
