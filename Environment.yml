@@ -1,4 +1,4 @@
-name: fastq2matrix
+name: emmawgs
 channels:
   - bioconda
   - javascript

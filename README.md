@@ -14,9 +14,9 @@ git clone https://github.com/emmacollins01/WGS.git
 cd ./WGS
 bash Install.sh
 
-conda activate fastq2matrix
+conda activate emmawgs
 
-# Then in install fastq2matrix pipeline
+# Then in install emmawgs pipeline
 
 git clone https://github.com/pathogenseq/fastq2matrix.git
 cd fastq2matrix
