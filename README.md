@@ -51,3 +51,12 @@ python Real_Time_Running.py --ID Test --SamplesFile Samples.txt --ReferenceFile 
 * **ReferenceFile** = Path to reference file to use in alignment.
 * **DownloadThreads** = Number of processes assigned to download the runs of interest.
 * **AnalysisThreads** = Number of processes assigned to analyse the runs of interest.
+
+
+## To Do
+
+* **Kraken**
+* **Compression** - File specific for storage optimisation
+* **Pause** - Enabling pausing + restart functionality
+* **Enhanced Logging** - Enhance logging of files etc
+* **File Organisation** - Enhance file organisation
